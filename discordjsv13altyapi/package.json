@@ -1,0 +1,12 @@
+{
+	"name": "discordjsv13altyapi",
+	"version": "1.0.0",
+	"main": "src/index.js",
+	"author": "Ahmetdev510",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"discord.js": "^13.1.0",
+		"snekfetch": "^4.0.4"
+	}
+}
