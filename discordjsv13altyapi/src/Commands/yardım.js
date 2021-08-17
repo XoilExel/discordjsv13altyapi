@@ -11,7 +11,7 @@ module.exports = new Command({
 
 		const embed = new Discord.MessageEmbed()
 		.setTitle("Yardım Menüsü")
-		.setDescription(`${prefix}ping : Botun pingini görüntüle. \n ${prefix}meme : Rastgele meme atar. \n ${prefix}yazdır : Bota bir şey yazdır. \n ${prefix}owo : OwO \n ${prefix}komut-sayısı : Komut sayısına bakarsınız. \n ${prefix}button : Bas gitsin. \n ${prefix}sil : Mesajları belirlediğin miktar kadar siler. \n ${prefix}8ball : 8ball oynarsınız.`)
+		.setDescription(`${prefix}ping : Botun pingini görüntüle. \n ${prefix}meme : Rastgele meme atar. \n ${prefix}yazdır : Bota bir şey yazdır. \n ${prefix}owo : OwO \n ${prefix}komut-sayısı : Komut sayısına bakarsınız. \n ${prefix}button : Bas gitsin. \n ${prefix}sil : Mesajları belirlediğin miktar kadar siler. \n ${prefix}8ball : 8ball oynarsınız. \n ${prefix}davet : Botu davet edersin.`)
 		.setColor("RANDOM")
 		.setTimestamp()
 		.setFooter(client.user.username,client.user.displayAvatarURL({dynamic:true}))
