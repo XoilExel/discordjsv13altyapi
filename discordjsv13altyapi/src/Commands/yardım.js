@@ -6,7 +6,7 @@ const { MessageActionRow, MessageEmbed, MessageSelectMenu } = require('discord.j
 
 
 module.exports = new Command({
-	name: "yardım2",
+	name: "yardım",
 	description: "Yardım komutu.",
 	async run(message, args, client) {
 
