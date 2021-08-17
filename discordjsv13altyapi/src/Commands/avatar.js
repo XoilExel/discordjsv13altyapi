@@ -11,7 +11,7 @@ module.exports = new Command({
 
 
 		const embed = new Discord.MessageEmbed()
-		.setTitle("İşte "+user.tag+" Kullanıcısının Avatarı")
+		.setTitle(`İşte ${user.tag} Kullanıcısının Avatarı`)
 		.setImage(user.displayAvatarURL({dynamic:true}))
 		.setColor("RANDOM")
 
