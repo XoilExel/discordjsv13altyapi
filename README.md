@@ -22,3 +22,5 @@ Windows işletim sisteminde başlat.bat dosyasını çalıştırmanız yeterli.
 
 
 Linux işletim sisteminde `node index.js` yazarak çalıştırabilirsiniz.
+
+Creator: #AhmetDev510 Editby: #XoilExel
