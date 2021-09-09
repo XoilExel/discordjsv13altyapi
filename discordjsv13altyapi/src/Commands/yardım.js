@@ -22,7 +22,7 @@ module.exports = new Command({
 
 		const bot = new Discord.MessageEmbed()
 		.setTitle("Bot Menüsü")
-		.setDescription(`${prefix}ping : Botun pingini görüntüle. \n ${prefix}komut-sayısı : Komut sayısına bakarsınız. \n ${prefix}button : Bas gitsin. \n ${prefix}davet : Botu davet edersin. `)
+		.setDescription(`${prefix}ping : Botun pingini görüntüle. \n ${prefix}komut-sayısı : Komut sayısına bakarsınız. \n ${prefix}davet : Botu davet edersin. `)
 		.setColor("RANDOM")
 		.setTimestamp()
 		.setFooter(client.user.username,client.user.displayAvatarURL({dynamic:true}))
@@ -31,7 +31,7 @@ module.exports = new Command({
 
 		const eğlence = new Discord.MessageEmbed()
 		.setTitle("Eğlence Menüsü")
-		.setDescription(`${prefix}meme : Rastgele meme atar.  \n ${prefix}yazdır : Bota bir şey yazdır. \n ${prefix}owo : OwO \n ${prefix}8ball : 8ball oynarsınız. `)
+		.setDescription(`${prefix}meme : Rastgele meme atar. \n ${prefix}yaz : Bota bir şey yazdır. \n ${prefix}8ball : 8ball oynarsınız. `)
 		.setColor("RANDOM")
 		.setTimestamp()
 		.setFooter(client.user.username,client.user.displayAvatarURL({dynamic:true}))
