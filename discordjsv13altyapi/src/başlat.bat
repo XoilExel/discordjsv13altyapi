@@ -2,5 +2,5 @@
 title Bot
 cls
 :a
-node index.js
+node main.js
 goto a
